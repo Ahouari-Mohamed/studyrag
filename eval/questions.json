@@ -1,0 +1,385 @@
+[
+  {
+    "id": 1,
+    "course": "Machine_Learning",
+    "question": "Quelles sont les quatre notions clés à maîtriser pour comprendre l'apprentissage supervisé ?",
+    "expected_file": "1_Introduction_au_ML.pdf",
+    "expected_page": 44,
+    "keywords": [
+      "dataset",
+      "modèle",
+      "fonction coût",
+      "algorithme d'apprentissage"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "course": "Machine_Learning",
+    "question": "Comment s'appelle la fonction coût utilisée en régression linéaire et comment est-elle définie ?",
+    "expected_file": "2_Regression_Lineaire.pdf",
+    "expected_page": 16,
+    "keywords": [
+      "erreur quadratique moyenne",
+      "moyenne"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "course": "Machine_Learning",
+    "question": "Que se passe-t-il si le learning rate est trop grand dans l'algorithme de Gradient Descent ?",
+    "expected_file": "2_Regression_Lineaire.pdf",
+    "expected_page": 26,
+    "keywords": [
+      "converger",
+      "learning rate"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "course": "Machine_Learning",
+    "question": "Why do we use a sigmoid function instead of a straight line for classification?",
+    "expected_file": "4_Regression_Logistique.pdf",
+    "expected_page": 12,
+    "keywords": [
+      "sigmoïde",
+      "0",
+      "1"
+    ],
+    "lang": "en",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "course": "Machine_Learning",
+    "question": "Pourquoi ne peut-on pas réutiliser la fonction coût de la régression linéaire pour la régression logistique ?",
+    "expected_file": "4_Regression_Logistique.pdf",
+    "expected_page": 15,
+    "keywords": [
+      "convexe",
+      "minimum"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 6,
+    "course": "Machine_Learning",
+    "question": "Quel seuil définit typiquement la frontière de décision en régression logistique ?",
+    "expected_file": "4_Regression_Logistique.pdf",
+    "expected_page": 13,
+    "keywords": [
+      "0.5"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "course": "Machine_Learning",
+    "question": "Quel est le lien entre la régression linéaire et la régression polynomiale ?",
+    "expected_file": "3_Regression_Multiple_et_Polynomiale.pdf",
+    "expected_page": 13,
+    "keywords": [
+      "degré 1",
+      "régression linéaire"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "course": "Machine_Learning",
+    "question": "Quelles sont les deux étapes de la mise en œuvre de la régression polynomiale avec sklearn ?",
+    "expected_file": "3_Regression_Multiple_et_Polynomiale.pdf",
+    "expected_page": 15,
+    "keywords": [
+      "PolynomialFeatures",
+      "régression linéaire"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "course": "Machine_Learning",
+    "question": "Dans le dataset d'appartements, que représentent les conventions m et n ?",
+    "expected_file": "3_Regression_Multiple_et_Polynomiale.pdf",
+    "expected_page": 6,
+    "keywords": [
+      "nombre d'exemples",
+      "nombre de features"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "hard"
+  },
+  {
+    "id": 10,
+    "course": "Machine_Learning",
+    "question": "Pourquoi l'algorithme KNN est-il appelé algorithme d'apprentissage paresseux ?",
+    "expected_file": "5_K_plus_proche_voisin.pdf",
+    "expected_page": 4,
+    "keywords": [
+      "lazy",
+      "stocke"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "course": "Machine_Learning",
+    "question": "Comment choisir en pratique la valeur de k dans KNN ?",
+    "expected_file": "5_K_plus_proche_voisin.pdf",
+    "expected_page": 20,
+    "keywords": [
+      "racine carrée",
+      "3",
+      "10"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 12,
+    "course": "Machine_Learning",
+    "question": "Pourquoi faut-il normaliser les caractéristiques avant de calculer les distances dans KNN ?",
+    "expected_file": "5_K_plus_proche_voisin.pdf",
+    "expected_page": 21,
+    "keywords": [
+      "échelle",
+      "poids",
+      "domineront"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 13,
+    "course": "Machine_Learning",
+    "question": "Dans l'exemple 2-KNN, quelle est la distance entre la tomate et l'orange ?",
+    "expected_file": "5_K_plus_proche_voisin.pdf",
+    "expected_page": 16,
+    "keywords": [
+      "1.4"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "hard",
+    "note": "Value is inside an image. OCR at low resolution may read 1.4 as 14."
+  },
+  {
+    "id": 14,
+    "course": "Machine_Learning",
+    "question": "Quelle est la différence entre le hard clustering et le soft clustering ?",
+    "expected_file": "7_K_means.pdf",
+    "expected_page": 4,
+    "keywords": [
+      "probabilité",
+      "complètement"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 15,
+    "course": "Machine_Learning",
+    "question": "Comment fonctionne la méthode du coude (Elbow) pour choisir le nombre de clusters K ?",
+    "expected_file": "7_K_means.pdf",
+    "expected_page": 22,
+    "keywords": [
+      "WCSS",
+      "coude"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 16,
+    "course": "Machine_Learning",
+    "question": "Quelles sont les trois catégories de nœuds d'un arbre ?",
+    "expected_file": "6_Decision_Tree.pdf",
+    "expected_page": 3,
+    "keywords": [
+      "racine",
+      "internes",
+      "feuilles"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "medium"
+  },
+  {
+    "id": 17,
+    "course": "Machine_Learning",
+    "question": "Dans l'exemple de calcul avec la Gini impurity, quel attribut est choisi à la racine de l'arbre ?",
+    "expected_file": "6_Decision_Tree.pdf",
+    "expected_page": 38,
+    "keywords": [
+      "Likes Soda",
+      "0.214"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "hard",
+    "alt_pages": [
+      34
+    ],
+    "note": "Image-only slides. 0.214 is computed on p34, summarised on p38."
+  },
+  {
+    "id": 18,
+    "course": "Java_POO",
+    "question": "Quels sont les niveaux de protection (accessibilité) des membres d'une classe en Java ?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 10,
+    "keywords": [
+      "private",
+      "protected",
+      "public",
+      "package"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 19,
+    "course": "Java_POO",
+    "question": "Qu'est-ce que la surcharge de méthodes en Java ?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 34,
+    "keywords": [
+      "signature",
+      "même nom"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 20,
+    "course": "Java_POO",
+    "question": "Qu'est-ce qu'une classe abstraite ?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 39,
+    "keywords": [
+      "instanciée"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 21,
+    "course": "Java_POO",
+    "question": "Qu'est-ce que le late binding en Java ?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 62,
+    "keywords": [
+      "exécution",
+      "tardive"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 22,
+    "course": "Java_POO",
+    "question": "What is the difference between checked and unchecked exceptions in Java?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 81,
+    "keywords": [
+      "surveillées",
+      "compilateur"
+    ],
+    "lang": "en",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 23,
+    "course": "Java_POO",
+    "question": "Que compare la méthode equals() si on ne la redéfinit pas ?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 52,
+    "keywords": [
+      "adresses mémoire",
+      "références"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "medium"
+  },
+  {
+    "id": 24,
+    "course": "Java_POO",
+    "question": "Quelle est la plage de valeurs du type primitif byte en Java ?",
+    "expected_file": "Introduction_a_Java_et_a_la_POO.pdf",
+    "expected_page": 16,
+    "keywords": [
+      "-128",
+      "127",
+      "8 bits"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 25,
+    "course": "Java_POO",
+    "question": "À quoi servent les getters et les setters ?",
+    "expected_file": "cours_Java_et_POO.pdf",
+    "expected_page": 14,
+    "keywords": [
+      "accesseurs",
+      "privé"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 26,
+    "course": null,
+    "question": "Comment déployer un pod Kubernetes avec un fichier YAML ?",
+    "expected_file": null,
+    "expected_page": null,
+    "keywords": [],
+    "lang": "fr",
+    "source_type": "no_answer",
+    "difficulty": "n/a"
+  },
+  {
+    "id": 27,
+    "course": null,
+    "question": "Quelle est la capitale de l'Australie ?",
+    "expected_file": null,
+    "expected_page": null,
+    "keywords": [],
+    "lang": "fr",
+    "source_type": "no_answer",
+    "difficulty": "n/a"
+  }
+]

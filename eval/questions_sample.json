@@ -1,0 +1,171 @@
+[
+  {
+    "id": 1,
+    "course": "Demo",
+    "question": "Comment est défini un objet en programmation orientée objet ?",
+    "expected_file": "sample1.pdf",
+    "expected_page": 1,
+    "keywords": [
+      "état",
+      "comportement"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "course": "Demo",
+    "question": "Qu'est-ce que l'identité d'un objet ?",
+    "expected_file": "sample1.pdf",
+    "expected_page": 2,
+    "keywords": [
+      "adresse mémoire",
+      "référence"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 3,
+    "course": "Demo",
+    "question": "Quels sont les niveaux de protection des membres d'une classe en Java ?",
+    "expected_file": "sample1.pdf",
+    "expected_page": 3,
+    "keywords": [
+      "private",
+      "protected",
+      "public",
+      "package"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 4,
+    "course": "Demo",
+    "question": "Qu'est-ce que la surcharge de méthodes ?",
+    "expected_file": "sample1.pdf",
+    "expected_page": 4,
+    "keywords": [
+      "signature",
+      "même nom"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 5,
+    "course": "Demo",
+    "question": "Qu'est-ce qu'une classe abstraite ?",
+    "expected_file": "sample1.pdf",
+    "expected_page": 5,
+    "keywords": [
+      "instanciée"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 6,
+    "course": "Demo",
+    "question": "Qu'est-ce que le late binding ?",
+    "expected_file": "sample1.pdf",
+    "expected_page": 6,
+    "keywords": [
+      "exécution",
+      "tardive"
+    ],
+    "lang": "fr",
+    "source_type": "text",
+    "difficulty": "easy"
+  },
+  {
+    "id": 7,
+    "course": "Demo",
+    "question": "Quelles sont les trois catégories de nœuds d'un arbre ?",
+    "expected_file": "sample2.pdf",
+    "expected_page": 1,
+    "keywords": [
+      "racine",
+      "internes",
+      "feuilles"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "easy"
+  },
+  {
+    "id": 8,
+    "course": "Demo",
+    "question": "Quelles sont les deux étapes d'un arbre de décision ?",
+    "expected_file": "sample2.pdf",
+    "expected_page": 2,
+    "keywords": [
+      "construction",
+      "évaluation"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "easy"
+  },
+  {
+    "id": 9,
+    "course": "Demo",
+    "question": "Comment se construit le modèle d'arbre de décision ?",
+    "expected_file": "sample2.pdf",
+    "expected_page": 3,
+    "keywords": [
+      "racine",
+      "meilleur attribut"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "easy"
+  },
+  {
+    "id": 10,
+    "course": "Demo",
+    "question": "Qui a proposé la formule de la Gini impurity et en quelle année ?",
+    "expected_file": "sample2.pdf",
+    "expected_page": 4,
+    "keywords": [
+      "Breiman",
+      "1984"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "easy"
+  },
+  {
+    "id": 11,
+    "course": "Demo",
+    "question": "Entre quelles valeurs se situe l'entropie ?",
+    "expected_file": "sample2.pdf",
+    "expected_page": 5,
+    "keywords": [
+      "0",
+      "1"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "easy"
+  },
+  {
+    "id": 12,
+    "course": "Demo",
+    "question": "Quelle est la valeur par défaut du paramètre criterion de DecisionTreeClassifier ?",
+    "expected_file": "sample2.pdf",
+    "expected_page": 7,
+    "keywords": [
+      "gini"
+    ],
+    "lang": "fr",
+    "source_type": "ocr",
+    "difficulty": "easy"
+  }
+]
