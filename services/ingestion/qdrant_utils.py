@@ -13,7 +13,7 @@ _NS = uuid.UUID("6f1b3c2a-9d4e-4a1b-9c2e-8f0a1b2c3d4e")
 
 
 def get_client() -> QdrantClient:
-    return QdrantClient(url=QDRANT_URL, check_compatibility=False)
+    return QdrantClient(url=QDRANT_URL)
 
 
 def ensure_collection(client: QdrantClient) -> None:
